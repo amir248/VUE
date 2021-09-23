@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="site/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="https://unpkg.com/vue@next"></script>
+    <link rel="icon" href="site/vue.png" type="image/x-icon"
+  </head>
+  <body>
+    <main>
+      <p>O_o Shikarno!</p>
+      <header>
+        <div id="counter">
+          Counter: {{ counter }}
+        </div>
+        <div class="conteinter">
+        </div>
+      </header>
+      <div id="two-way-binding">
+        <p>{{ message }}</p>
+        <input v-model="message" />
+      </div>
+    </main>
+
+    <script src="site/js.js"></script>
+  </body>
+</html>
