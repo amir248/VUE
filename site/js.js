@@ -7,19 +7,19 @@
             id: 1,
             title: "ChikChicly",
             content:
-              "<p>Пишу на яваскрипте и получается изучить вью на шикарном уровене!</p>"
+              "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.!</p>"
           },
           {
             id: 2,
             title: "Амир",
             content:
-              "<p>Амир это грандиозный и шикарный человек, самый лучший!</p>"
+              "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.!</p>"
           },
           {
             id: 3,
             title: "Excellent",
             content:
-              "<p>все и правдо супер шикарно, хорошо, супер просто, лучше всех.</p>"
+              "<p>ВЕселые истории тут будут про шикарный успех.)))</p>"
           },
           {
           id:4,

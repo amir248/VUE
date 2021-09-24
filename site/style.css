@@ -23,10 +23,11 @@ article{
 }
 footer{
   display:flex;
-  justify-content:center;
-  align-items:center;
+  justify-content:flex-end;
+  align-items:flex-end;
   flex-direction:column;
   max-width: 100%;
+  min-height:70vh;
   text-align:center;
   margin:1%;
 }

@@ -1,177 +1,49 @@
-element.style {
+.tab-button {
+  padding: 6px 10px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: #f0f0f0;
+  margin-bottom: -1px;
+  margin-right: -1px;
 }
-* {
-    box-sizing: border-box;
-    -webkit-font-smoothing: var(--font-smoothing);
+.tab-button:hover {
+  background: #e0e0e0;
 }
-user agent stylesheet
-head {
-    display: none;
+.tab-button.active {
+  background: #e0e0e0;
 }
-<style>
-:root {
-    --reach-menu-button: 1;
-    --reach-tooltip: 1;
-    --reach-skip-nav: 1;
+.tab {
+  border: 1px solid #ccc;
+  padding: 10px;
 }
-<style>
-:root {
-    --reach-menu-button: 1;
-    --reach-tooltip: 1;
-    --reach-skip-nav: 1;
+.posts-tab {
+  display: flex;
 }
-<style>
-:root {
-    --reach-menu-button: 1;
-    --reach-tooltip: 1;
-    --reach-skip-nav: 1;
+.posts-sidebar {
+  max-width: 40vw;
+  margin: 0;
+  padding: 0 10px 0 0;
+  list-style-type: none;
+  border-right: 1px solid #ccc;
 }
-<style>
-:root {
-    --reach-menu-button: 1;
-    --reach-tooltip: 1;
-    --reach-skip-nav: 1;
+.posts-sidebar li {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
 }
-<style>
-:root {
-    --reach-menu-button: 1;
-    --reach-tooltip: 1;
-    --reach-skip-nav: 1;
+.posts-sidebar li:hover {
+  background: #eee;
 }
-<style>
-:root {
-    --reach-menu-button: 1;
-    --reach-tooltip: 1;
-    --reach-skip-nav: 1;
+.posts-sidebar li.selected {
+  background: lightblue;
 }
-<style>
-:root {
-    --reach-menu-button: 1;
-    --reach-tooltip: 1;
-    --reach-skip-nav: 1;
+.selected-post-container {
+  padding-left: 10px;
 }
-<style>
-:root {
-    --reach-menu-button: 1;
-    --reach-tooltip: 1;
-    --reach-skip-nav: 1;
-}
-<style>
-:root {
-    --reach-menu-button: 1;
-    --reach-tooltip: 1;
-    --reach-skip-nav: 1;
-}
-<style>
-:root {
-    --reach-menu-button: 1;
-    --reach-tooltip: 1;
-    --reach-skip-nav: 1;
-}
-<style>
-:root {
-    --reach-menu-button: 1;
-    --reach-tooltip: 1;
-    --reach-skip-nav: 1;
-}
-:root {
-    --light-color-attribute-name: #ef6632;
-    --light-color-attribute-name-inverted: rgba(255, 255, 255, 0.7);
-    --light-color-attribute-value: #1a1aa6;
-    --light-color-attribute-value-inverted: #ffffff;
-    --light-color-attribute-editable-value: #1a1aa6;
-    --light-color-background: #ffffff;
-    --light-color-background-hover: rgba(0, 136, 250, 0.1);
-    --light-color-background-inactive: #e5e5e5;
-    --light-color-background-invalid: #fff0f0;
-    --light-color-background-selected: #0088fa;
-    --light-color-button-background: #ffffff;
-    --light-color-button-background-focus: #ededed;
-    --light-color-button: #5f6673;
-    --light-color-button-disabled: #cfd1d5;
-    --light-color-button-active: #0088fa;
-    --light-color-button-focus: #23272f;
-    --light-color-button-hover: #23272f;
-    --light-color-border: #eeeeee;
-    --light-color-commit-did-not-render-fill: #cfd1d5;
-    --light-color-commit-did-not-render-fill-text: #000000;
-    --light-color-commit-did-not-render-pattern: #cfd1d5;
-    --light-color-commit-did-not-render-pattern-text: #333333;
-    --light-color-commit-gradient-0: #37afa9;
-    --light-color-commit-gradient-1: #63b19e;
-    --light-color-commit-gradient-2: #80b393;
-    --light-color-commit-gradient-3: #97b488;
-    --light-color-commit-gradient-4: #abb67d;
-    --light-color-commit-gradient-5: #beb771;
-    --light-color-commit-gradient-6: #cfb965;
-    --light-color-commit-gradient-7: #dfba57;
-    --light-color-commit-gradient-8: #efbb49;
-    --light-color-commit-gradient-9: #febc38;
-    --light-color-commit-gradient-text: #000000;
-    --light-color-component-name: #6a51b2;
-    --light-color-component-name-inverted: #ffffff;
-    --light-color-component-badge-background: rgba(0, 0, 0, 0.1);
-    --light-color-component-badge-background-inverted: rgba(255, 255, 255, 0.25);
-    --light-color-component-badge-count: #777d88;
-    --light-color-component-badge-count-inverted: rgba(255, 255, 255, 0.7);
-    --light-color-context-background: rgba(0,0,0,.9);
-    --light-color-context-background-hover: rgba(255, 255, 255, 0.1);
-    --light-color-context-background-selected: #178fb9;
-    --light-color-context-border: #3d424a;
-    --light-color-context-text: #ffffff;
-    --light-color-context-text-selected: #ffffff;
-    --light-color-dim: #777d88;
-    --light-color-dimmer: #cfd1d5;
-    --light-color-dimmest: #eff0f1;
-    --light-color-expand-collapse-toggle: #777d88;
-    --light-color-modal-background: rgba(255, 255, 255, 0.75);
-Show All Properties (113 more)
-}
-:root {
-    --reach-tooltip: 1;
-}
-:root {
-    --reach-menu-button: 1;
-}
-:root {
-    --reach-tooltip: 1;
-}
-html, body {
-    font-family: roboto,sans-serif;
-    -webkit-font-smoothing: auto;
-    -moz-font-smoothing: auto;
-    -moz-osx-font-smoothing: grayscale;
-    font-smoothing: auto;
-    text-rendering: optimizeLegibility;
-    font-smooth: always;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none;
-    min-height: 100%;
-    -webkit-text-size-adjust: 100%;
-    height: 100%;
-    background: #040404;
-    color: #999;
-    font-size: 16px!important;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-html {
-    font-family: sans-serif;
-    line-height: 1.15;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
-user agent stylesheet
-html {
-    color: -internal-root-color;
-}
-::-webkit-scrollbar {
-    width: .5rem;
-    height: .5rem;
-}
-::-webkit-scrollbar-thumb {
-    -webkit-transition: .3s ease all;
-    transition: .3s ease all;
-    border-color: transparent;
-    background-color: rgba(255,255,255,.1);
-    z-index: 40;
+.selected-post > :first-child {
+  margin-top: 0;
+  padding-top: 0;
 }
