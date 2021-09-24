@@ -21,6 +21,7 @@ const TwoWayBinding = {
 
 Vue.createApp(TwoWayBinding).mount('#two-way-binding')
 
+
 const TodoList = {
   data() {
     return {
