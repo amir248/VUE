@@ -31,3 +31,8 @@ footer{
   text-align:center;
   margin:1%;
 }
+button{
+  padding:3%;
+  background: none;
+  border-radius: 5px;
+}

@@ -59,7 +59,7 @@
   });
 
   Vue.component("tab-archive", {
-    template: "<div>Archive component</div>"
+    template: "<div>Тут будет что нибудь написано!</div>"
   });
 
   new Vue({
