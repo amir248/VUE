@@ -56,7 +56,7 @@
       <div v-html="selectedPost.content"></div>
     </div>
     <strong v-else>
-      Click on a blog title to the left to view it.
+      OK! Click on a blog title to the left to view it.
     </strong>
   </div>
 </div>
