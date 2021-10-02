@@ -63,6 +63,7 @@
 `
   });
 
+
   Vue.component("tab-archive", {
     template: "<div>Тут будет что нибудь написано!</div>"
   });
